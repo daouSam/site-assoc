@@ -17,6 +17,12 @@ $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
+
+
+$primera: #10923c !default;
+$seconda: #492c1a !default;
+$troisa: #85bd2c !default;
+$quatma: #fcbe15 !default;
 // scss-docs-end gray-color-variables
 
 // fusv-disable
@@ -67,9 +73,9 @@ $colors: (
 // scss-docs-end colors-map
 
 // scss-docs-start theme-color-variables
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
-$success:       $green !default;
+$primary:       $primera; // $blue !default;
+$secondary:     $seconda; //$gray-600 !default;
+$success:       $troisa; //$green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;

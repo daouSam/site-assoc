@@ -13,6 +13,7 @@ import { TeamsComponent } from './teams/teams.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { HeadchildComponent } from './headchild/headchild.component';
 import { RouterModule } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     PagesRoutingModule,
-    RouterModule
+    RouterModule,
+    ReactiveFormsModule
   ]
 })
 export class PagesModule { }
